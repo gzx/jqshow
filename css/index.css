@@ -640,16 +640,16 @@ a {
     padding-left: 170px;
 }
 #snbWrap #snb dd.snb02 {
-    padding-left: 290px;
+    padding-left: 280px;
 }
 #snbWrap #snb dd.snb03 {
-    padding-left: 435px;
+    padding-left: 430px;
 }
 #snbWrap #snb dd.snb04 {
-    padding-left: 578px;
+    padding-left: 574px;
 }
 #snbWrap #snb dd.snb05 {
-    padding-left: 732px;
+    padding-left: 718px;
 } 
 
 #snbWrap #snb dd ul li {
@@ -715,7 +715,7 @@ a {
 #footer .family {
     position: absolute;
     right: 0;
-    bottom: 22px;
+    bottom: 35px;
 }
 #footer .family dt {
     right: 0;
