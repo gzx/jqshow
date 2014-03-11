@@ -8,75 +8,126 @@
         <meta name="Keywords" content="婧麒孕妇防辐射服,防辐射服,防辐射孕妇装,婧麒官网,婧麒旗舰店,孕妇装,婧麒官方网站,婧麒网,婧麒防辐射服,意大利婧麒防辐射服">
         <meta name="Description" content="意大利婧麒全球防辐射服领先品牌，专注于健康环保服饰领域，独家研发深海沉碇防辐射面料，产品防辐射效果超强;她简约大方的风格在服饰界可谓独树一帜，深受广大消费者喜爱！秉承“因爱而生”的品牌理念，专为年轻个性、热爱生活、健康自信的女性而设计。">
 
-        <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="../css/owl.theme.css">
+
         <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-        <script src="./js/layout.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                var num = 0;
-                var maxNum = $(".visualRote ul li").size()-1
-                function visual() {
-                    num++
-                    if(num>maxNum){num=0}
-                    $(".visualRote ul li").fadeOut(2000);
-                    $(".visualRote ul li").eq(num).fadeIn(2000);
-                }
-                setInterval(visual,5000)
-            })
-        </script>
+        <script src="../js/layout.js" type="text/javascript"></script>
+        <script src="../js/owl.carousel.min.js" type="text/javascript"></script>
+
         <style type="text/css">
-            #visual {
-                position: relative;
+        .wrap {
+                background: #e8d6ce;
+        }
+            #contentsBanner {
                 width: 100%;
+                height: 402px;
+                background: url(../images/goods/infant-top-bg.jpg)  black no-repeat center top;
+            }
+            #ContentWrap {
                 margin: 0 auto;
-                height: 713px;
+                width: 960px;
             }
-
-            #visual .visualRote ul li {
-                width: 100%;
-                height: 713px;
-                position: absolute;
-                display: none;
-                background-repeat: no-repeat;
-                background-position:  center top;
-            }
-            #visual .visualRote ul li.image01 {
-                background-image: url(./images/index/img-visual01.jpg);
-            }
-            #visual .visualRote ul li.image02 {
-                background-image: url(./images/index/img-visual02.jpg);
-            }
-            #visual .visualRote ul li.image03 {
-                background-image: url(./images/index/img-visual03.jpg);
-            }
-
-            #visual .visualRote ul li:first-child {
-                display: block;
-            }
-            #visual .mainBanner {
-                position:  relative;
-                top: 500px;
+            .imgbox {
+                position: relative;
                 text-align: center;
-                font-size: 0;
+                color: white;
+                font-size: 14px;
             }
-            #visual .mainBanner li {
-                display: inline-block;
-                *display: inline;
-                *zoom: 1;
+            .box1 {
+                height: 650px;
+                background: url(../images/goods/infant_01.jpg) no-repeat -1px top;
             }
-            #visual .mainBanner li a{
-                display: block;
-                border: 10px solid #333;
+            .box2 {
+                height: 600px;
+                background: url(../images/goods/infant_03.jpg) no-repeat center top;
+            }
+            .box1 .carousel {
+                width: 285px;
+                position: absolute;
+                top: 375px;
+                right: 120px;
+            }
+            .box2 .carousel {
+                width: 380px;
+                position: absolute;
+                top: 15px;
+                left: 85px;
             }
 
-            #visual .mainBanner li a:hover {
-                border: 10px solid #E7587A;
+            .box1 .owl-theme .owl-controls .owl-buttons div {
+                position: absolute;
+                top: 102px;
+                background: transparent;
+                font-size: 40px;
             }
 
-            #visual .mainBanner li.centerBan {
-                margin: 0 30px;
+            .box1 .owl-theme .owl-controls .owl-buttons .owl-prev {
+                left: -60px;
             }
+
+            .box1 .owl-theme .owl-controls .owl-buttons .owl-next {
+                right: -60px;
+            }
+
+            .box2 .owl-theme .owl-controls .owl-buttons div {
+                position: absolute;
+                bottom: -14px;
+                background: transparent;
+                font-size: 40px;
+            }
+
+            .box2 .owl-theme .owl-controls .owl-buttons .owl-prev {
+                left: -15px;
+            }
+
+            .box2 .owl-theme .owl-controls .owl-buttons .owl-next {
+                right: -15px;
+            }
+
+            .box2 .owl-wrapper-outer {
+                margin-bottom: 20px;
+            }
+
         </style>
+
+        <script type="text/javascript">
+            $(function() {
+                $(".box1 .carousel").owlCarousel({
+                    singleItem:true,
+                    autoPlay: true,
+                    pagination: false,
+                    navigation: true,
+                    navigationText: ["&#60;", "&#62;"]
+                });
+                $(".box2 .carousel").owlCarousel({
+                    singleItem:true,
+                    autoPlay: true,
+                    pagination: false,
+                    navigation: true,
+                    navigationText: ["&#60;", "&#62;"]
+                });
+
+                var box1 = $(".box1 .carousel").data("owlCarousel")
+                $(".box1 .prev").on("click", function() {
+                    box1.prev()
+                })
+
+                $(".box1 .next").on("click", function() {
+                    box1.next()
+                })
+
+                var box2 = $(".box2 .carousel").data("owlCarousel")
+                $(".box2 .prev").on("click", function() {
+                    box2.prev()
+                })
+
+                $(".box2 .next").on("click", function() {
+                    box2.next()
+                })
+            });
+        </script>
 
     </head>
     
@@ -84,25 +135,25 @@
         <!-- header -->
         <div id="headerWrap">
             <div id="header" class="clearfix">
-                <a href="./index.html" class="pull-left logo">
-                    <img src="./images/layout/logo.jpg" width="137" height="27" alt="JOYNCLEON"
+                <a href="../index.html" class="pull-left logo">
+                    <img src="../images/layout/logo.jpg" width="137" height="27" alt="JOYNCLEON"
                     />
                 </a>
                 <div id="headMenu" class="pull-right">
                     <div class="gnb clearfix">
                         <ul>
                             <li>
-                                <a href="javascript:">
+                                <a href="../member/login.asp">
                                     LECTURE
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:">
+                                <a href="../member/join01.asp">
                                     JION GUIDE
                                 </a>
                             </li>
                             <li>
-                                <a href="./contact.html">
+                                <a href="../contact.html">
                                     CONTACT US
                                 </a>
                             </li>
@@ -111,32 +162,32 @@
                     <div class="lnb">
                         <ul class="clearfix">
                             <li>
-                                <a href="./articles/brand-profile.html" title="名牌故事" class="maintain">
+                                <a href="./brand-profile.html" title="名牌故事" class="maintain">
                                      BRAND STORY
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:" title="质量研究">
+                                <a href="../media/prroom.asp" title="质量研究">
                                     QUALITY RESEARCH
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:" title="产品展示">
+                                <a href="../style/catalogue.asp" title="产品展示">
                                     PRODUCT SHOW
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:" title="最新新闻">
+                                <a href="../community/sayfrench01.asp" title="最新新闻">
                                     LATEST NEWS
                                 </a>
                             </li>
                             <li>
-                                <a href="mall.html" title="网上商城"  class="maintain">
+                                <a href="../service/shopinfo.asp" title="网上商城">
                                     E-SHOP
                                 </a>
                             </li>
                             <li>
-                                <a href="inquery.html" title="防伪查询"  class="maintain">
+                                <a href="../service/shopinfo.asp" title="防伪查询"  class="maintain">
                                     ANTI-COUNTERFEITING
                                 </a>
                             </li>
@@ -145,6 +196,7 @@
                 </div>
             </div>
         </div>
+
         <div id="snbWrap">
             <dl id="snb">
                 <dd class="snb01 clearfix">
@@ -152,13 +204,13 @@
                 <dd class="snb02 clearfix">
                     <ul>
                         <li class="first" style="width: 165px">
-                            <a href="./articles/tech-nano.html">
+                            <a href="./tech-nano.html">
                                 <div class="cn">纳米银离子束流电镀技术</div>
                                 <div class="en">Nano-silver ion technology</div>
                             </a>
                         </li>
                         <li  style="width: 204px">
-                            <a href="./articles/tech-deep.html">
+                            <a href="./tech-deep.html">
                                 <div class="cn">深海沉淀技术</div>
                                 <div class="en">Deep-sea sedimentation technique</div>
                             </a>
@@ -216,42 +268,71 @@
                     </ul>
                 </dd>
                 <dd class="snb05 clearfix">
+                    <ul>
+                        <li class="first"  style="width: 60px">
+                            <a href="javascript:">
+                                <div class="cn">天猫</div>
+                                <div class="en">Tmall</div>
+                            </a>
+                        </li>
+                        <li  style="width: 60px">
+                            <a href="javascript:">
+                             <div class="cn">京东商城</div>
+                                <div class="en">JD</div>
+                            </a>
+                        </li>
+                        <li  style="width: 60px">
+                            <a href="javascript:">
+                                <div class="cn">一号店</div>
+                                <div class="en">YHD</div>
+                            </a>
+                        </li>
+                    </ul>
                 </dd>
             </dl>
         </div>
         <!-- //header -->
 
-        <div id="visual">
-            <div class="visualRote">
-                <ul>
-                    <li class="image01"></li>
-                    <li class="image02"></li>
-                    <li class="image03"></li>
-
-                </ul>
+        <div class="wrap">
+            <div id="contentsBanner">
+                <h2 class="visuallyhidden">纳米银离子束流电镀技术</h2>
             </div>
-            <ul class="mainBanner">
-                <li>
-                    <a href="javascript:">
-                        <img src="./images/index/banner01.jpg" alt="新品专供" />
-                    </a>
-                </li>
-                <li class="centerBan">
-                    <a href="javascript:">
-                        <img src="./images/index/banner02.jpg" alt="最新活动" />
-                    </a>
-                </li>
-                <li>
-                    <a href="goods/infant.html">
-                        <img src="./images/index/banner03.jpg" alt="婴儿装" />
-                    </a>
-                </li>
-            </ul>
+
+            <div id="ContentWrap">
+                <div class="imgbox box1">
+                    <div class="carousel">
+                        <div>
+                            <img src="../images/goods/infant-caro01.jpg">
+                        </div>
+                        <div>
+                            <img src="../images/goods/infant-caro02.jpg">
+                        </div>
+                        天然 &#8226; 透气 &#8226; 舒心
+                    </div>
+
+                </div>
+                <img src="../images/goods/infant_02.jpg" height="840">
+                <div class="imgbox box2">
+                    
+                    <div class="carousel">
+                        <div>
+                            <img src="../images/goods/infant-caro03.jpg">
+                        </div>
+                        <div>
+                            <img src="../images/goods/infant-caro04.jpg">
+                        </div>
+                        舒适 &#8226; 健康 &#8226; 环保
+                    </div>
+
+                </div>
+                <img src="../images/goods/infant_04.jpg" height="495">
+            </div>
         </div>
+
         <!-- footer -->
         <div id="footWrap" class="clearfix">
             <div id="footer">
-                <img src="./images/layout/footer-logo.jpg">
+                <img src="../images/layout/footer-logo.jpg">
 
                 <p class="copyright">
                     COPYRIGHT@2014 MINATEXILE.CN ALL RIGHTS REGHTS RESERVED.POWERED BY<br>
@@ -280,7 +361,7 @@
                         </ul>
                     </dd>
                     <dt>
-                        <img src="./images/layout/btn_family.gif" width="104" height="14" alt="family site"
+                        <img src="../images/layout/btn_family.gif" width="104" height="14" alt="family site"
                         />
                     </dt>
 
