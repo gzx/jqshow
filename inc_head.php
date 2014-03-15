@@ -47,12 +47,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="mall.php" title="网上商城"  class="maintain">
+                                <a href="/mall.php" title="网上商城"  class="maintain">
                                     E-SHOP
                                 </a>
                             </li>
                             <li>
-                                <a href="inquery.php" title="防伪查询"  class="maintain">
+                                <a href="/inquery.php" title="防伪查询"  class="maintain">
                                     ANTI-COUNTERFEITING
                                 </a>
                             </li>
