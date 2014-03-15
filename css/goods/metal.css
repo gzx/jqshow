@@ -19,9 +19,9 @@
     padding-top: 80px;
 }
 
-.list {
+.listWrap .list {
     margin: 0 auto;
-    width: 820px;
+    width: 880px;
     text-align: center;
 }
 
@@ -34,12 +34,12 @@
 }
 
 .prev {
-    left: 10px;
+    left: 5px;
     background: url(../../images/goods/metal_left.jpg) no-repeat center center;
 }
 
 .next {
-    right: 10px;
+    right: 5px;
     background: url(../../images/goods/metal_right.jpg) no-repeat center center;
 }
 

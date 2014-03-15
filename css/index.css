@@ -591,7 +591,7 @@ a {
 
 #headMenu .gnb ul {
     float: right;
-    padding: 1px 2px;
+    padding: 1px 12px;
 }
 
 #headMenu .gnb ul li { margin-left: 30px; }
@@ -642,10 +642,10 @@ a {
     padding-left: 280px;
 }
 #snbWrap #snb dd.snb03 {
-    padding-left: 430px;
+    padding-left: 432px;
 }
 #snbWrap #snb dd.snb04 {
-    padding-left: 574px;
+    padding-left: 580px;
 }
 #snbWrap #snb dd.snb05 {
     padding-left: 718px;

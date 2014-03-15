@@ -20,7 +20,7 @@
             $(function() {
                 $(".list").owlCarousel({
                     items: 4,
-                    autoPlay: true,
+                    autoPlay: 3000,
                     pagination: false,
                     itemsDesktop: false,
                     itemsDesktopSmall: false,

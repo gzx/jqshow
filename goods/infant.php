@@ -22,7 +22,7 @@
             $(function() {
                 $(".box1 .carousel").owlCarousel({
                     singleItem:true,
-                    autoPlay: true,
+                    autoPlay: 3000,
                     pagination: false,
                     navigation: true,
                     navigationText: ["&#60;", "&#62;"]

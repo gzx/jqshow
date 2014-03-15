@@ -64,7 +64,7 @@
                 <img src="../images/lecture/pic07.jpg" style="margin-top: 115px">
                 <img src="../images/lecture/qr.jpg" style="margin-top: 90px">
                 <p>关注婧麒防辐射，做健康准妈咪！</p>
-                <a href="" target="_blank">进入婧麒店铺选购>></a>
+                <a href="http://joyncleon.tmall.com/" target="_blank">进入婧麒店铺选购>></a>
             </div>
         </div>
 
