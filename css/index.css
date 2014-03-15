@@ -743,3 +743,58 @@ a {
 #footer .family dd ul li a:hover {
     text-decoration: underline;
 }
+
+/*index*/
+
+#visual {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 713px;
+}
+
+#visual .visualRote ul li {
+    width: 100%;
+    height: 713px;
+    position: absolute;
+    display: none;
+    background-repeat: no-repeat;
+    background-position:  center top;
+}
+#visual .visualRote ul li.image01 {
+    background-image: url(../images/index/img-visual01.jpg);
+}
+#visual .visualRote ul li.image02 {
+    background-image: url(../images/index/img-visual02.jpg);
+}
+#visual .visualRote ul li.image03 {
+    background-image: url(../images/index/img-visual03.jpg);
+}
+
+#visual .visualRote ul li:first-child {
+    display: block;
+}
+#visual .mainBanner {
+    position:  relative;
+    top: 500px;
+    text-align: center;
+    font-size: 0;
+}
+#visual .mainBanner li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+#visual .mainBanner li a{
+    display: block;
+    border: 10px solid #333;
+}
+
+#visual .mainBanner li a:hover {
+    border: 10px solid #E7587A;
+}
+
+#visual .mainBanner li.centerBan {
+    margin: 0 30px;
+}
+
