@@ -27,7 +27,7 @@
                     <div class="lnb">
                         <ul class="clearfix">
                             <li>
-                                <a href="/articles/brand-profile.php" title="名牌故事" class="maintain">
+                                <a href="/articles/brand-profile.php" title="品牌故事" class="maintain">
                                      BRAND STORY
                                 </a>
                             </li>

@@ -3,7 +3,7 @@
                 <img src="/images/layout/footer-logo.jpg">
 
                 <p class="copyright">
-                    COPYRIGHT@2014 MINATEXILE.CN ALL RIGHTS REGHTS RESERVED.POWERED BY<br>
+                    COPYRIGHT©2014 JOYNCLEON.COM ALL RIGHTS REGHTS RESERVED.POWERED BY<br>
                     WWW.JOYNCLEON.COM
                 </p>
 

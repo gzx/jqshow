@@ -28,7 +28,7 @@ if (document.MAINFORM.InputText1.value.length<10)
    {
    document.MAINFORM.InputText.value=document.MAINFORM.InputText1.value;
    ////document.MAINFORM.InputText1.value='正在查询，请等待...';
-   window.open('res.asp?InputText='+document.MAINFORM.InputText.value,'','scrollbars=no,width=400,height=400');
+   window.open('http://gen.joyncleon.com/res.asp?InputText='+document.MAINFORM.InputText.value,'','scrollbars=no,width=400,height=400');
    return false;
    }
 }

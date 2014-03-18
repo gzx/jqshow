@@ -25,9 +25,9 @@
             <div id="conHeader" class=" clearfix">
                 <h2 class="pull-left">About</h2>
                 <ul class="pull-left">
-                    <li><a href="./brand-profile.html" class="active">Brand Profile</a></li>
-                    <li><a href="./brand-story.html">Brand Story</a></li>
-                    <li><a href="./brand-background.html">Brand Background</a></li>
+                    <li><a href="./brand-profile.php" class="active">Brand Profile</a></li>
+                    <li><a href="./brand-story.php">Brand Story</a></li>
+                    <li><a href="./brand-background.php">Brand Background</a></li>
                 </ul>
             </div>
         </div>
