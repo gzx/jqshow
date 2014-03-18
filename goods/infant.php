@@ -59,7 +59,9 @@
     
     <body>
         <!-- header -->
-        <?php include(dirname(__FILE__)."/../inc_head.php");?>
+        <?php
+            include("/../inc_head.php");
+        ?>
         <!-- //header -->
 
         <div class="wrap">
